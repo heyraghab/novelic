@@ -6,6 +6,17 @@
   margin: 1rem 0;
 }
 
+.tagline{
+  opacity: 80%;
+}
+
+.but{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .headingXl {
   font-size: 2rem;
   line-height: 1.3;
@@ -23,6 +34,7 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  text-align: center;
 }
 
 .borderCircle {

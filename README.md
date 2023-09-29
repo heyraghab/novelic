@@ -1,1 +1,2 @@
-This is a final template for [Learn Next.js](https://nextjs.org/learn).
+# [novelic](https://novelic.xyz/)
+website for the novelic application
