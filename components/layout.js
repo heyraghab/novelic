@@ -50,8 +50,8 @@ export default function Layout({ children, home }) {
                 alt={name}
               />
             </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
+            <h2 className={utilStyles.heading}>
+              <Link href="/">
                 {name}
               </Link>
             </h2>
