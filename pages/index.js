@@ -8,14 +8,6 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SW0CCJ8EXT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SW0CCJ8EXT');
-</script>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
