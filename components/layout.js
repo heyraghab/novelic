@@ -3,7 +3,6 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import Script from 'next/script'
 
 const name = 'NOVELIC';
 export const siteTitle = 'novelic';
@@ -12,16 +11,6 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-          <Script src="https://www.googletagmanager.com/gtag/js?id=G-SW0CCJ8EXT" />
-          <Script id="google-analytics">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-     
-              gtag('config', 'G-SW0CCJ8EXT');
-            `}
-          </Script>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
