@@ -12,7 +12,6 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <div className="container">
           <Script src="https://www.googletagmanager.com/gtag/js?id=G-SW0CCJ8EXT" />
           <Script id="google-analytics">
             {`
@@ -23,7 +22,6 @@ export default function Layout({ children, home }) {
               gtag('config', 'G-SW0CCJ8EXT');
             `}
           </Script>
-        </div>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
